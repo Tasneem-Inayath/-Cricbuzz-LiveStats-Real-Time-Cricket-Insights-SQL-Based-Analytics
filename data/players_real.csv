@@ -1,0 +1,51 @@
+player_id,player_name,role,batting_style,bowling_style,country,match_id,runs_scored,balls_faced,strike_rate,wickets_taken,overs_bowled,economy_rate,catches,stumpings,batting_position,innings,format
+1,Virat Kohli,Batsman,Right-hand bat,Right-arm medium,India,1.0,78.0,65.0,120.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,ODI
+2,Rohit Sharma,Batsman,Right-hand bat,Right-arm offbreak,India,1.0,65.0,70.0,92.9,0.0,0.0,0.0,0.0,0.0,4.0,1.0,ODI
+3,Jasprit Bumrah,Bowler,Right-hand bat,Right-arm fast,India,1.0,10.0,8.0,125.0,2.0,8.0,3.0,0.0,0.0,7.0,1.0,ODI
+4,Hardik Pandya,All-rounder,Right-hand bat,Right-arm medium,India,1.0,55.0,45.0,122.2,1.0,7.0,4.5,1.0,0.0,6.0,1.0,ODI
+5,MS Dhoni,Wicket-keeper,Right-hand bat,-,India,1.0,42.0,38.0,110.5,0.0,0.0,0.0,1.0,1.0,5.0,1.0,ODI
+6,David Warner,Batsman,Left-hand bat,-,Australia,2.0,90.0,110.0,81.8,0.0,0.0,0.0,0.0,0.0,3.0,1.0,Test
+7,Pat Cummins,Bowler,Right-hand bat,Right-arm fast,Australia,2.0,10.0,12.0,83.3,4.0,20.0,2.5,0.0,0.0,8.0,1.0,Test
+8,Steve Smith,Batsman,Right-hand bat,Legbreak,Australia,2.0,70.0,85.0,82.4,0.0,0.0,0.0,1.0,0.0,4.0,1.0,Test
+9,Glenn Maxwell,All-rounder,Right-hand bat,Right-arm offbreak,Australia,2.0,45.0,30.0,150.0,2.0,15.0,3.0,0.0,0.0,5.0,1.0,Test
+10,Kane Williamson,Batsman,Right-hand bat,Right-arm offbreak,New Zealand,3.0,88.0,60.0,146.7,0.0,0.0,0.0,0.0,0.0,3.0,1.0,T20I
+11,Trent Boult,Bowler,Right-hand bat,Left-arm fast-medium,New Zealand,3.0,12.0,10.0,120.0,1.0,4.0,6.0,0.0,0.0,7.0,1.0,T20I
+12,Ross Taylor,Batsman,Right-hand bat,Offbreak,New Zealand,3.0,55.0,45.0,122.2,0.0,0.0,0.0,1.0,0.0,4.0,1.0,T20I
+13,Babar Azam,Batsman,Right-hand bat,-,Pakistan,3.0,62.0,50.0,124.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,T20I
+14,Shaheen Afridi,Bowler,Left-hand bat,Left-arm fast,Pakistan,4.0,75.0,60.0,125.0,2.0,15.0,5.0,0.0,0.0,5.0,1.0,ODI
+15,Mohammad Rizwan,Wicket-keeper,Right-hand bat,-,Pakistan,4.0,50.0,55.0,90.9,0.0,0.0,0.0,0.0,0.0,6.0,1.0,ODI
+16,Shakib Al Hasan,All-rounder,Left-hand bat,Left-arm orthodox,Bangladesh,4.0,40.0,30.0,133.3,1.0,8.0,3.0,1.0,0.0,4.0,1.0,ODI
+17,Mushfiqur Rahim,Wicket-keeper,Right-hand bat,-,Bangladesh,4.0,30.0,25.0,120.0,0.0,0.0,0.0,1.0,1.0,3.0,1.0,ODI
+18,Chris Gayle,Batsman,Left-hand bat,Right-arm offbreak,West Indies,5.0,105.0,60.0,175.0,0.0,0.0,0.0,1.0,0.0,3.0,1.0,T20I
+19,Andre Russell,All-rounder,Right-hand bat,Right-arm fast,West Indies,5.0,45.0,35.0,128.6,1.0,4.0,6.0,0.0,0.0,4.0,1.0,T20I
+20,Rashid Khan,Bowler,Right-hand bat,Legbreak googly,Afghanistan,5.0,12.0,8.0,150.0,2.0,3.0,4.0,0.0,0.0,7.0,1.0,T20I
+21,Mohammad Nabi,All-rounder,Right-hand bat,Right-arm offbreak,Afghanistan,5.0,33.0,28.0,117.9,0.0,0.0,0.0,0.0,0.0,5.0,1.0,T20I
+22,Joe Root,Batsman,Right-hand bat,Offbreak,England,6.0,88.0,80.0,110.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,ODI
+23,Ben Stokes,All-rounder,Left-hand bat,Right-arm medium-fast,England,6.0,66.0,70.0,94.3,1.0,12.0,3.5,0.0,0.0,4.0,1.0,ODI
+24,Jos Buttler,Wicket-keeper,Right-hand bat,-,England,6.0,50.0,42.0,119.0,0.0,0.0,0.0,1.0,1.0,5.0,1.0,ODI
+25,Trent Richards,Bowler,Right-hand bat,Right-arm fast-medium,South Africa,6.0,30.0,25.0,120.0,2.0,15.0,3.0,0.0,0.0,7.0,1.0,ODI
+26,Quinton de Kock,Wicket-keeper,Right-hand bat,-,South Africa,7.0,77.0,65.0,118.5,0.0,0.0,0.0,1.0,0.0,3.0,1.0,Test
+27,Kagiso Rabada,Bowler,Right-hand bat,Right-arm fast,South Africa,7.0,40.0,35.0,114.3,3.0,18.0,2.5,0.0,0.0,5.0,1.0,Test
+28,Faf du Plessis,Batsman,Right-hand bat,Right-arm legbreak,South Africa,7.0,85.0,70.0,121.4,0.0,0.0,0.0,0.0,0.0,4.0,1.0,Test
+29,AB de Villiers,Batsman,Right-hand bat,Right-arm medium,South Africa,7.0,65.0,60.0,108.3,0.0,0.0,0.0,0.0,0.0,3.0,1.0,Test
+30,Hashim Amla,Batsman,Right-hand bat,Right-arm medium,South Africa,7.0,70.0,65.0,107.7,0.0,0.0,0.0,1.0,0.0,5.0,1.0,Test
+31,Jason Holder,All-rounder,Right-hand bat,Right-arm fast-medium,West Indies,8.0,55.0,40.0,137.5,1.0,8.0,4.0,1.0,0.0,4.0,1.0,T20I
+32,Kemar Roach,Bowler,Right-hand bat,Right-arm fast,West Indies,8.0,20.0,15.0,133.3,2.0,4.0,3.0,0.0,0.0,7.0,1.0,T20I
+33,Shai Hope,Batsman,Right-hand bat,-,West Indies,8.0,45.0,35.0,128.6,0.0,0.0,0.0,0.0,0.0,3.0,1.0,T20I
+34,Nikesh Ramnath,All-rounder,Left-hand bat,Left-arm orthodox,West Indies,8.0,40.0,32.0,125.0,0.0,0.0,0.0,0.0,0.0,5.0,1.0,T20I
+35,Lasith Malinga,Bowler,Right-hand bat,Right-arm fast, Sri Lanka,9.0,30.0,20.0,150.0,3.0,6.0,3.0,0.0,0.0,7.0,1.0,ODI
+36,Kumar Sangakkara,Wicket-keeper,Right-hand bat,-,Sri Lanka,9.0,65.0,55.0,118.2,0.0,0.0,0.0,1.0,1.0,4.0,1.0,ODI
+37,Mahela Jayawardene,Batsman,Right-hand bat,Right-arm offbreak,Sri Lanka,9.0,50.0,45.0,111.1,0.0,0.0,0.0,0.0,0.0,3.0,1.0,ODI
+38,Dimuth Karunaratne,Batsman,Right-hand bat,Right-arm offbreak,Sri Lanka,9.0,40.0,35.0,114.3,0.0,0.0,0.0,0.0,0.0,5.0,1.0,ODI
+39,Angelo Mathews,All-rounder,Right-hand bat,Right-arm medium,Sri Lanka,9.0,35.0,30.0,116.7,2.0,10.0,2.0,0.0,0.0,6.0,1.0,ODI
+40,Steve Tikolo,Batsman,Right-hand bat,Right-arm offbreak,Kenya,10.0,70.0,60.0,116.7,0.0,0.0,0.0,0.0,0.0,3.0,1.0,T20I
+41,Martin Guptill,Batsman,Right-hand bat,Right-arm medium,New Zealand,10.0,55.0,50.0,110.0,0.0,0.0,0.0,0.0,0.0,4.0,1.0,T20I
+42,Tim Southee,Bowler,Right-hand bat,Right-arm fast,New Zealand,10.0,30.0,28.0,107.1,2.0,4.0,3.5,0.0,0.0,7.0,1.0,T20I
+43,Mitchell Starc,Bowler,Left-hand bat,Left-arm fast,Australia,10.0,25.0,22.0,113.6,3.0,8.0,2.5,0.0,0.0,5.0,1.0,T20I
+44,Pat Brown,All-rounder,Right-hand bat,Right-arm medium,England,10.0,40.0,35.0,114.3,1.0,6.0,3.0,0.0,0.0,6.0,1.0,T20I
+45,Liam Livingstone,All-rounder,Right-hand bat,Right-arm offbreak,England,10.0,35.0,30.0,116.7,0.0,0.0,0.0,0.0,0.0,4.0,1.0,T20I
+46,Sam Curran,All-rounder,Left-hand bat,Left-arm medium-fast,England,10.0,50.0,45.0,111.1,1.0,5.0,4.0,0.0,0.0,5.0,1.0,T20I
+47,Jonny Bairstow,Wicket-keeper,Right-hand bat,-,England,10.0,60.0,50.0,120.0,0.0,0.0,0.0,0.0,1.0,3.0,1.0,T20I
+48,Shivam Dube,All-rounder,Right-hand bat,Right-arm medium,India,10.0,45.0,40.0,112.5,1.0,6.0,3.0,0.0,0.0,6.0,1.0,T20I
+49,Deepak Chahar,Bowler,Right-hand bat,Right-arm medium,India,10.0,25.0,20.0,125.0,2.0,4.0,3.0,0.0,0.0,7.0,1.0,T20I
+50,Rishabh Pant,Wicket-keeper,Left-hand bat,-,India,10.0,55.0,50.0,110.0,0.0,0.0,0.0,0.0,1.0,4.0,1.0,T20I
