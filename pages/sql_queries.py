@@ -5,7 +5,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import queries as q
 import streamlit as st
-import mysql.connector
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils.db_connection import get_connection
 # -------------------
@@ -23,7 +22,11 @@ st.header("🪄 Database Query Questions")
 # MYSQL CONNECTION
 # -------------------
 @st.cache_resource
-conn = get_connection() #type:ignore
+def get_conn():
+    return get_connection()
+
+conn = get_conn()
+
 
 # -------------------
 # RUN QUERY FUNCTION

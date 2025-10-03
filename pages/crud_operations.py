@@ -10,8 +10,11 @@ from utils.db_connection import get_connection
 # MySQL Connection
 # -------------------
 @st.cache_resource
+def get_conn():
+    return get_connection()
 
-conn = get_connection() #type:ignore
+conn = get_conn()
+
 cursor = conn.cursor(dictionary=True)
 
 # -------------------
