@@ -2,21 +2,16 @@ import streamlit as st
 import mysql.connector
 from datetime import datetime, date
 import decimal
+import sys,os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from utils.db_connection import get_connection
 
 # -------------------
 # MySQL Connection
 # -------------------
 @st.cache_resource
-def get_connection():
-    conn = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="2741",
-        database="cricketdb"
-    )
-    return conn
 
-conn = get_connection()
+conn = get_connection() #type:ignore
 cursor = conn.cursor(dictionary=True)
 
 # -------------------
@@ -57,6 +52,7 @@ def input_widget(col, col_type, value=None, disabled=False):
         val = float(value) if isinstance(value, decimal.Decimal) else (value if value is not None else 0.0)
         return st.number_input(col, value=val, format="%.2f", disabled=disabled)
     elif "date" in col_type_lower:
+        from datetime import datetime, date
         if value is None or not isinstance(value, date):
             value = datetime.today()
         return st.date_input(col, value=value, disabled=disabled)

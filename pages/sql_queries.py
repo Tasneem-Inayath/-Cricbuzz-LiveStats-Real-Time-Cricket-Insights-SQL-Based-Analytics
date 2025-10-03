@@ -6,7 +6,8 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import queries as q
 import streamlit as st
 import mysql.connector
-
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from utils.db_connection import get_connection
 # -------------------
 # PAGE SETUP
 # -------------------
@@ -22,17 +23,7 @@ st.header("🪄 Database Query Questions")
 # MYSQL CONNECTION
 # -------------------
 @st.cache_resource
-def get_connection():
-    """Create MySQL connection cached across Streamlit sessions"""
-    conn = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="2741",
-        database="cricketdb"
-    )
-    return conn
-
-conn = get_connection()
+conn = get_connection() #type:ignore
 
 # -------------------
 # RUN QUERY FUNCTION

@@ -353,7 +353,7 @@ def update_match_table():
                     toss_winner_id, toss_decision
                 ))
 
-                print("Collected:", description)
+                # print("Collected:", description)
 
     # ------------------------
     # Insert all data safely
@@ -380,8 +380,8 @@ def update_match_table():
 
     cursor.execute("SET FOREIGN_KEY_CHECKS = 1;")  # enable back
 
-    print("All matches processed successfully.")
-    update_venues_tables(venues_ids, conn)
+    # print("All matches processed successfully.")
+    # update_venues_tables(venues_ids, conn)
 
 def top_odi(): #query3
     import json
